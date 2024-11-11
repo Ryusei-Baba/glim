@@ -38,7 +38,7 @@
     // IMU config
     "imu_time_offset": -0.36,//0.0,
     "points_time_offset": -0.001,//0.0,
-    "acc_scale": 1.0,
+    "acc_scale": 1.0,//Livox LiDARの場合 9.80665 に設定
     // TF config
     "imu_frame_id": "imu",
     "lidar_frame_id": "surestar",
