@@ -9,8 +9,8 @@
     "viewer_width": 2560,
     "viewer_height": 1440,
     "default_z_range": [
-      -2.0,
-      4.0
+      -0.1,//-2.0,
+      3.0//4.0
     ],
     "enable_partial_rendering": false,
     "partial_rendering_budget": 1024,
@@ -24,8 +24,8 @@
     "viewer_width": 2560,
     "viewer_height": 1440,
     "default_z_range": [
-      -2.0,
-      4.0
+      -0.1,//-2.0,
+      3.0//4.0
     ],
     "enable_partial_rendering": false,
     "partial_rendering_budget": 1024,
