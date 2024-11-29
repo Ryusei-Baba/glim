@@ -13,8 +13,8 @@
   // num_threads                 : Number of threads for preprocessing
   */
   "preprocess": {
-    "distance_near_thresh": 0.5,//scanの最小距離を指定
-    "distance_far_thresh": 200.0,//scanの最大距離を指定
+    "distance_near_thresh": 0.25,//scanの最小距離を指定
+    "distance_far_thresh": 40.0,//scanの最大距離を指定
     "use_random_grid_downsampling": true,
     "downsample_resolution": 1.0,
     "random_downsample_target": 5000,//10000,
@@ -22,7 +22,7 @@
     "enable_outlier_removal": true,
     "outlier_removal_k": 10,
     "outlier_std_mul_factor": 1.0,
-    "k_correspondences": 20,//10,
-    "num_threads": 15//2//使用するスレッドの数を指定
+    "k_correspondences": 30,//10,
+    "num_threads": 18//2//使用するスレッドの数を指定
   }
 }
