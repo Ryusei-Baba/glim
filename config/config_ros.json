@@ -40,8 +40,8 @@
     "points_time_offset": 0.0,
     "acc_scale": 9.80665,//LDARの場合 9.80665 に設定, その他は 1.0
     // TF config
-    "imu_frame_id": "imu",
-    "lidar_frame_id": "surestar",
+    "imu_frame_id": "livox_frame",
+    "lidar_frame_id": "livox_frame",
     "base_frame_id": "base_link",
     "odom_frame_id": "odom",
     "map_frame_id": "map",
